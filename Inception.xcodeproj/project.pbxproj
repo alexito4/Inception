@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBAC03A31CFA1CA70036985C /* DreamDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAC03A21CFA1CA70036985C /* DreamDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBAC03A91CFA1CB60036985C /* DreamDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAC03A81CFA1CB60036985C /* DreamDescription.swift */; };
+		FBAC27C31CFA12B000A5CE97 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAC27C21CFA12B000A5CE97 /* main.swift */; };
+		FBAC27CB1CFA12DA00A5CE97 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAC27CA1CFA12DA00A5CE97 /* config.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBAC03A01CFA1CA70036985C /* DreamDescription.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DreamDescription.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAC03A21CFA1CA70036985C /* DreamDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DreamDescription.h; sourceTree = "<group>"; };
+		FBAC03A41CFA1CA70036985C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBAC03A81CFA1CB60036985C /* DreamDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DreamDescription.swift; sourceTree = "<group>"; };
+		FBAC03AA1CFA1D590036985C /* run.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
+		FBAC27BF1CFA12B000A5CE97 /* Inception.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inception.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAC27C21CFA12B000A5CE97 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FBAC27C41CFA12B000A5CE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBAC27CA1CFA12DA00A5CE97 /* config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBAC039C1CFA1CA70036985C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAC27BD1CFA12B000A5CE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBAC03A11CFA1CA70036985C /* DreamDescription */ = {
+			isa = PBXGroup;
+			children = (
+				FBAC03A81CFA1CB60036985C /* DreamDescription.swift */,
+				FBAC03A21CFA1CA70036985C /* DreamDescription.h */,
+				FBAC03A41CFA1CA70036985C /* Info.plist */,
+			);
+			path = DreamDescription;
+			sourceTree = "<group>";
+		};
+		FBAC27B71CFA12B000A5CE97 = {
+			isa = PBXGroup;
+			children = (
+				FBAC27CA1CFA12DA00A5CE97 /* config.swift */,
+				FBAC03AA1CFA1D590036985C /* run.sh */,
+				FBAC27C11CFA12B000A5CE97 /* Inception */,
+				FBAC03A11CFA1CA70036985C /* DreamDescription */,
+				FBAC27C01CFA12B000A5CE97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBAC27C01CFA12B000A5CE97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBAC27BF1CFA12B000A5CE97 /* Inception.app */,
+				FBAC03A01CFA1CA70036985C /* DreamDescription.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBAC27C11CFA12B000A5CE97 /* Inception */ = {
+			isa = PBXGroup;
+			children = (
+				FBAC27C21CFA12B000A5CE97 /* main.swift */,
+				FBAC27C41CFA12B000A5CE97 /* Info.plist */,
+			);
+			path = Inception;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FBAC039D1CFA1CA70036985C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAC03A31CFA1CA70036985C /* DreamDescription.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FBAC039F1CFA1CA70036985C /* DreamDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAC03A51CFA1CA70036985C /* Build configuration list for PBXNativeTarget "DreamDescription" */;
+			buildPhases = (
+				FBAC039B1CFA1CA70036985C /* Sources */,
+				FBAC039C1CFA1CA70036985C /* Frameworks */,
+				FBAC039D1CFA1CA70036985C /* Headers */,
+				FBAC039E1CFA1CA70036985C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamDescription;
+			productName = DreamDescription;
+			productReference = FBAC03A01CFA1CA70036985C /* DreamDescription.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBAC27BE1CFA12B000A5CE97 /* Inception */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAC27C71CFA12B000A5CE97 /* Build configuration list for PBXNativeTarget "Inception" */;
+			buildPhases = (
+				FBAC27BC1CFA12B000A5CE97 /* Sources */,
+				FBAC27BD1CFA12B000A5CE97 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inception;
+			productName = Inception;
+			productReference = FBAC27BF1CFA12B000A5CE97 /* Inception.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBAC27B81CFA12B000A5CE97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alejandro Martinez";
+				TargetAttributes = {
+					FBAC039F1CFA1CA70036985C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FBAC27BE1CFA12B000A5CE97 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FBAC27BB1CFA12B000A5CE97 /* Build configuration list for PBXProject "Inception" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBAC27B71CFA12B000A5CE97;
+			productRefGroup = FBAC27C01CFA12B000A5CE97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBAC27BE1CFA12B000A5CE97 /* Inception */,
+				FBAC039F1CFA1CA70036985C /* DreamDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBAC039E1CFA1CA70036985C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBAC039B1CFA1CA70036985C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAC03A91CFA1CB60036985C /* DreamDescription.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAC27BC1CFA12B000A5CE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAC27C31CFA12B000A5CE97 /* main.swift in Sources */,
+				FBAC27CB1CFA12DA00A5CE97 /* config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBAC03A61CFA1CA70036985C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = DreamDescription/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alejandromp.DreamDescription;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FBAC03A71CFA1CA70036985C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = DreamDescription/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alejandromp.DreamDescription;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBAC27C51CFA12B000A5CE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FBAC27C61CFA12B000A5CE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FBAC27C81CFA12B000A5CE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Inception/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alejandromp.Inception;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBAC27C91CFA12B000A5CE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Inception/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alejandromp.Inception;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBAC03A51CFA1CA70036985C /* Build configuration list for PBXNativeTarget "DreamDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAC03A61CFA1CA70036985C /* Debug */,
+				FBAC03A71CFA1CA70036985C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBAC27BB1CFA12B000A5CE97 /* Build configuration list for PBXProject "Inception" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAC27C51CFA12B000A5CE97 /* Debug */,
+				FBAC27C61CFA12B000A5CE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBAC27C71CFA12B000A5CE97 /* Build configuration list for PBXNativeTarget "Inception" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAC27C81CFA12B000A5CE97 /* Debug */,
+				FBAC27C91CFA12B000A5CE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBAC27B81CFA12B000A5CE97 /* Project object */;
+}
