@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		FBAC03A31CFA1CA70036985C /* DreamDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAC03A21CFA1CA70036985C /* DreamDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBAC03A91CFA1CB60036985C /* DreamDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAC03A81CFA1CB60036985C /* DreamDescription.swift */; };
+		FBAC03AC1CFA34A00036985C /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAC27CA1CFA12DA00A5CE97 /* Dream.swift */; };
 		FBAC27C31CFA12B000A5CE97 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAC27C21CFA12B000A5CE97 /* main.swift */; };
-		FBAC27CB1CFA12DA00A5CE97 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAC27CA1CFA12DA00A5CE97 /* config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		FBAC27BF1CFA12B000A5CE97 /* Inception.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inception.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAC27C21CFA12B000A5CE97 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FBAC27C41CFA12B000A5CE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBAC27CA1CFA12DA00A5CE97 /* config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = SOURCE_ROOT; };
+		FBAC27CA1CFA12DA00A5CE97 /* Dream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dream.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		FBAC27B71CFA12B000A5CE97 = {
 			isa = PBXGroup;
 			children = (
-				FBAC27CA1CFA12DA00A5CE97 /* config.swift */,
+				FBAC27CA1CFA12DA00A5CE97 /* Dream.swift */,
 				FBAC03AA1CFA1D590036985C /* run.sh */,
 				FBAC27C11CFA12B000A5CE97 /* Inception */,
 				FBAC03A11CFA1CA70036985C /* DreamDescription */,
@@ -190,7 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBAC27C31CFA12B000A5CE97 /* main.swift in Sources */,
-				FBAC27CB1CFA12DA00A5CE97 /* config.swift in Sources */,
+				FBAC03AC1CFA34A00036985C /* Dream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

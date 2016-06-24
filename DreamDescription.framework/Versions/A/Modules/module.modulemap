@@ -1,0 +1,10 @@
+framework module DreamDescription {
+  umbrella header "DreamDescription.h"
+
+  export *
+  module * { export * }
+}
+
+module DreamDescription.Swift {
+    header "DreamDescription-Swift.h"
+}
